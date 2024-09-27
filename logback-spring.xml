@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+    <springProperty scope="context" name="profile" source="spring.profiles.active"/>
+    <include resource="logback-${profile}.xml"/>
+</configuration>
