@@ -1,0 +1,7 @@
+@media screen and (min-width: 992px){
+    .card mb-3 p{
+        margin: 0px 100px !important;
+        color: aqua;
+    }
+    
+}
